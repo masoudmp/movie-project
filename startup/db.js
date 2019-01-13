@@ -1,0 +1,19 @@
+const mongoose = require("mongoose");
+const winston = require("winston");
+const config = require("config");
+
+module.exports = function() {
+  let db;
+  if (process.env.NODE_ENV === "test") {
+    db = config.get("dbtest");
+  } else {
+    db = config.get("db");
+  }
+
+  mongoose
+    .connect(
+      db,
+      { useNewUrlParser: true }
+    )
+    .then(() => winston.info("Connected to mongodb..."));
+};
