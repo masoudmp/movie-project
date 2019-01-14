@@ -1,5 +1,6 @@
 {
   "jwtPrivateKey": "",
   "db": "",
-  "dbtest": ""
+  "dbtest": "",
+  "requiresAuth": false
 }
