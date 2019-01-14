@@ -10,3 +10,11 @@
 {"message":"Connected to mongodb...","level":"info"}
 {"message":"Listening on port 5000...","level":"info"}
 {"message":"Connected to mongodb...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to mongodb...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to mongodb...","level":"info"}
+{"level":"error","message":"Cannot read property 'isAdmin' of undefined"}
+{"level":"error","message":"Cannot read property 'isAdmin' of undefined"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to mongodb...","level":"info"}
