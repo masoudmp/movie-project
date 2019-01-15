@@ -18,3 +18,8 @@
 {"level":"error","message":"Cannot read property 'isAdmin' of undefined"}
 {"message":"Listening on port 5000...","level":"info"}
 {"message":"Connected to mongodb...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to mongodb...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"11\" at path \"_id\" for model \"Movie\"","name":"CastError","stringValue":"\"11\"","kind":"ObjectId","value":"11","path":"_id","level":"error"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to mongodb...","level":"info"}
